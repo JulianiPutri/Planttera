@@ -1,0 +1,121 @@
+.home-container{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    margin-bottom: 100px;
+}
+.home-left-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    height: 700px;
+}
+.home-left-content{
+    margin: auto;
+    width: 70%;
+}
+.home-left-content h1{
+    margin: 50px 0;
+    color: var(--grey);
+    font-size: 50px;
+}
+.home-left-content p{
+    margin-bottom: 50px;
+    width: 70%;
+    color: var(--grey-medium);
+    font-size: 15px;
+}
+.search-container{
+    width:80%;
+}
+.icon-search {
+    height: auto;
+    float: left;
+    margin-left: 5px;
+    color: var(--grey-medium);
+}
+.icon-search i{
+    padding: 25px 25px;
+    position: absolute;
+    z-index: 1;
+}
+.search-box-home{
+    border: none;
+    box-shadow: 0px 10px 20px rgba(99, 99, 99, 0.16);
+    border-radius: 5px;
+    width:90%;
+    padding: 20px 0px 20px 65px;
+    font-size: 20px;
+}
+.home-right-container{
+    width: 50%;
+}
+.home-right-container img{
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+.absolute-home1{
+    top: 100px;
+    left: 550px;
+    height: 100px;
+    width: 100px;
+    background-color: var(--lime-green-dark);
+    border-radius: 100%;
+    position: absolute;
+}
+.absolute-home2{
+    top: 500px;
+    left: 80px;
+    height: 80px;
+    width: 80px;
+    background-color: var(--lime-green-light);
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.home-left-container img{
+    top: 420px;
+    left: 600px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 800px){
+    .home-container{
+        display: block;
+        height: 800px;
+    }
+    .home-left-container{
+        height: 500px;
+        width: 100%;
+    }
+    .home-left-content h1{
+        font-size: 30px;
+        margin: 30px 0;
+    }
+    .home-left-content p{
+        margin-bottom: 30px;
+        font-size: 12px;
+    }
+    .search-box-home{
+        padding: 10px 0px 10px 50px;
+        font-size: 15px;
+    }
+    .icon-search i{
+        padding: 10px 10px;
+    }
+    .home-right-container{
+        height: 300px;
+        width: 100%;
+    }
+    .home-right-container img{
+        height: 300px;
+        object-fit: none;
+        margin-bottom: 100px;
+    }
+}

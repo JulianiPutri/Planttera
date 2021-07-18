@@ -1,0 +1,10 @@
+:root{
+    --white :rgb(255, 255, 255);
+    --grey :rgb(92, 92, 92);
+    --grey-medium :rgb(105, 105, 105);
+    --lime-green :rgb(	9, 189, 124);
+    --light-grey : rgb(252, 252, 252);
+    --lime-green-dark: rgba(2, 194, 125, 0.6);
+    --lime-green-light : rgba(50, 255, 181, 0.7);
+
+}
